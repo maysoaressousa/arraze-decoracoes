@@ -4,10 +4,16 @@ import 'swiper/css';
 import 'swiper/css/effect-fade';
 import 'swiper/css/pagination';
 
+import heroImg from '../assets/SAVE_20260423_091032.jpg';
+import slide1 from '../assets/SAVE_20260423_091032.jpg';
+import slide2 from '../assets/SAVE_20260423_091038.jpg';
+import slide3 from '../assets/SAVE_20260423_091042.jpg';
+
 const slides = [
-  { img: "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?q=80&w=2000", title: "Momentos Inesquecíveis" },
-  { img: "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=2000", title: "Elegância em Detalhes" },
-  { img: "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?q=80&w=2000", title: "Sua Festa, Nossa Arte" }
+  { img: heroImg, title: 'Elegância em Detalhes' },
+  { img: slide1, title: 'Sua Festa, Nossa Arte' },
+  { img: slide2, title: 'Momentos Inesquecíveis' },
+  { img: slide3, title: 'Decorações de Luxo' }
 ];
 
 export default function Hero() {

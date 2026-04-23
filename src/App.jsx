@@ -1,23 +1,49 @@
+import React from 'react';
+
+// Importação de todos os componentes da pasta components
 import Header from './components/Header';
 import Hero from './components/Hero';
+import About from './components/About';
 import Services from './components/Services';
+import Gallery from './components/Gallery';
+import Testimonials from './components/Testimonials';
+import CTA from './components/CTA';
+import Footer from './components/Footer';
 import WhatsAppButton from './components/WhatsAppButton';
-// Importe os outros conforme for criando...
 
 function App() {
   return (
-    <div className="min-h-screen bg-dark">
-      <Header />
-      <Hero />
-      <Services />
-      {/* Adicione as outras seções aqui */}
-      <WhatsAppButton />
+    <div className="min-h-screen bg-white font-sans selection:bg-gold selection:text-dark">
       
-      {/* Exemplo de Footer Simples */}
-      <footer id="contato" className="bg-dark text-white py-12 border-t border-gold/20 text-center">
-        <p className="text-gold font-serif text-2xl mb-4">ARRAZE</p>
-        <p className="text-gray-500 text-sm">© 2026 Arraze Decorações. Todos os direitos reservados.</p>
-      </footer>
+      {/* Navegação fixa no topo */}
+      <Header />
+
+      <main>
+        {/* Banner principal com carrossel de imagens */}
+        <Hero />
+
+        {/* História, Missão, Visão e Valores */}
+        <About />
+
+        {/* Listagem dos serviços de decoração */}
+        <Services />
+
+        {/* Grid de fotos do portfólio */}
+        <Gallery />
+
+        {/* Depoimentos de clientes satisfeitos */}
+        <Testimonials />
+        
+        {/* Chamada para ação final com foco em conversão */}
+        <CTA />
+      </main>
+
+      {/* Rodapé com informações de contacto e redes sociais */}
+      <Footer />
+
+      {/* Botão de WhatsApp fixo para atendimento rápido */}
+      <WhatsAppButton />
+
     </div>
   );
 }
