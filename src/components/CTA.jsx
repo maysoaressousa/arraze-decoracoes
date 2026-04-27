@@ -25,13 +25,13 @@ export default function CTA() {
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
           <a 
-            href="https://wa.me/5585999999999?text=Olá!%20Vi%20o%20site%20da%20Arraze%20e%20gostaria%20de%20um%20orçamento." 
+            href="https://wa.me/55859981615341?text=Olá!%20Vi%20o%20site%20da%20Arraze%20e%20gostaria%20de%20um%20orçamento." 
             target="_blank" 
             rel="noopener noreferrer"
             className="group relative flex items-center gap-3 bg-gold hover:bg-gold-dark text-dark font-bold py-5 px-10 rounded-sm transition-all duration-300 transform hover:-translate-y-1 shadow-2xl w-full sm:w-auto justify-center"
           >
             <MessageCircle size={24} className="group-hover:rotate-12 transition-transform" />
-            <span className="uppercase tracking-[0.2em] text-sm">Falar com Consultora</span>
+            <span className="uppercase tracking-[0.2em] text-sm">Falar com nossa equipe</span>
           </a>
 
           <button className="text-white border-b border-gold/50 hover:border-gold py-2 px-4 transition-all tracking-widest uppercase text-xs font-medium">
@@ -40,7 +40,7 @@ export default function CTA() {
         </div>
         
         <p className="mt-10 text-gray-500 text-sm italic">
-          *Atendimento personalizado para Fortaleza e Região Metropolitana.
+          *Atendimento personalizado em Canindé arredores e Região Metropolitana.
         </p>
       </div>
     </section>
